@@ -31,7 +31,7 @@ const config: CodegenConfig = {
                 strictScalars: true,
                 scalars,
             },
-            plugins: ['typescript-operations', 'typed-document-node'],
+            plugins: ['typescript-operations'],
         },
     },
 };
